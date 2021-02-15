@@ -1,0 +1,64 @@
+body, * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+h1 {
+  line-height: 3;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  border: 1px solid #333;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.important {
+  color: red;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  margin: 0 auto 10px auto;
+  cursor: pointer;
+}
+
+.error-div {
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 30px 0 30px;
+}
